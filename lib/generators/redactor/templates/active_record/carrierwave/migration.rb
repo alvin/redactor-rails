@@ -14,7 +14,7 @@ class CreateRedactorAssets < ActiveRecord::Migration
       t.integer :height
 
       t.timestamps
-    end
+    endf
 
     # Uncomment it to add foreign key. gem 'foreigner' is required in your .Gemfile
     # add_foreign_key(:redactor_assets, :users, dependent: :delete)
