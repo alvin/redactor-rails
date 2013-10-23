@@ -1,8 +1,7 @@
 class RedactorRails::PicturesController < ApplicationController
 
   def index
-    @pictures = RedactorRails.picture_model.where(
-        RedactorRails.picture_model.new
+    @pictures = RedactorRails.picture_model.where({ })
     render :json => @pictures.to_json
   end
 
