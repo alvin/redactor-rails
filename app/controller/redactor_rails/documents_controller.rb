@@ -1,8 +1,7 @@
 class RedactorRails::DocumentsController < ApplicationController
 
   def index
-    @documents = RedactorRails.document_model.where(
-        RedactorRails.document_model.new
+    @documents = RedactorRails.document_model.where({ })
     render :json => @documents.to_json
   end
 
