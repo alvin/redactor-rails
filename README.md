@@ -1,4 +1,4 @@
-# Rails 3.2 Integration for Redactor (Devise REMOVED Edition)
+# Rails 3.2 Integration for Redactor (Devise REMOVED Edition) - 
 
 The redactor-rails gem integrates the [Redactor](http://redactorjs.com/) editor with the Rails 3.2 asset pipeline.
 
